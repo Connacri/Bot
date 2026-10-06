@@ -19,13 +19,14 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 logging.basicConfig(level=logging.INFO)
 
 TOKEN = os.environ["BOT_TOKEN"]
-CHANNEL_URL = os.environ.get("CHANNEL_URL", "https://t.me/ta_chaine")
+CHANNEL_URL = os.environ.get("CHANNEL_URL", "https://t.me/+VF_TlKnL1jpjNGQ0")
 DATABASE_URL = os.environ["DATABASE_URL"]
 
 PALIERS = {
-    3: "🎁 Palier 3 : ta liste « 20 logiciels gratuits indispensables » : https://exemple.com/liste20",
-    10: "🔥 Palier 10 : le guide « Alternatives gratuites aux logiciels payants » : https://exemple.com/guide",
-    25: "👑 Palier 25 : accès au groupe VIP : https://t.me/+lien_prive",
+    3: "🎁 Palier 3 : ta liste « 20 logiciels gratuits indispensables » : https://play.google.com/store/apps/details?id=com.cargolink.dz.cargolink",
+    10: "🔥 Palier 10 : le guide « Alternatives gratuites aux logiciels payants » : https://youtube.com/@cabalink
+",
+    25: "👑 Palier 25 : accès au groupe VIP : https://t.me/+VF_TlKnL1jpjNGQ0",
 }
 
 WELCOME_GIFT = (
